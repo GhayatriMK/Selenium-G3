@@ -22,6 +22,7 @@ public class StepDefinition {
 	public void register_details(){
 		String title = driver.getTitle();
 		System.out.println(title);
+		System.out.println(title);
 	}
 	
 	//Regular expression:  \"(.*)\"   which is used to mention any numeric or string with no length limitations.
