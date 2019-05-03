@@ -1,0 +1,186 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Register login scenario",
+        "description": "",
+        "id": "register-login-feature;register-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7988148899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Register page",
+            "match": {
+              "location": "StepDefinition.register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91035600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of the Register page is Register.html",
+            "match": {
+              "location": "StepDefinition.register_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335298601,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Ghayatri\" and \"Nirmal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ghayatri",
+                  "offset": 13
+                },
+                {
+                  "val": "Nirmal",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.fullname(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2104741100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefinition.exit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@reg"
+          },
+          {
+            "line": 1,
+            "name": "@tst"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Register login scenario",
+        "description": "",
+        "id": "register-login-feature;register-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4914864900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Register page",
+            "match": {
+              "location": "StepDefinition.register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63669900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of the Register page is Register.html",
+            "match": {
+              "location": "StepDefinition.register_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187441599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Mathrika\" and \"NG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathrika",
+                  "offset": 13
+                },
+                {
+                  "val": "NG",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.fullname(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2089542400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefinition.exit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@reg"
+          },
+          {
+            "line": 1,
+            "name": "@tst"
+          }
+        ]
+      }
+    ],
+    "name": "Register login Feature",
+    "description": "",
+    "id": "register-login-feature",
+    "keyword": "Feature",
+    "uri": "Test1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tst"
+      },
+      {
+        "line": 1,
+        "name": "@reg"
+      }
+    ]
+  }
+]
